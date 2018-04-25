@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WikiGame.StartMenuController">
+   <children>
+      <SplitPane dividerPositions="0.7069377990430622" layoutX="-1.0" layoutY="-1.0" prefHeight="543.0" prefWidth="861.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="558.0" prefWidth="603.0">
+               <children>
+                  <Text layoutX="28.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Wikipedia Games" textAlignment="CENTER" wrappingWidth="547.88818359375">
+                     <font>
+                        <Font name="Bad Script Regular" size="66.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="297.0" fitWidth="465.0" layoutX="139.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="/wiki_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="125.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a game from the menu to the right">
+                     <font>
+                        <Font name="Bad Script Regular" size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="connectionGameButton" layoutX="49.0" layoutY="45.0" mnemonicParsing="false" onAction="#onConnectionClicked" prefHeight="96.0" prefWidth="173.0" text="What's the Connection?" />
+                  <Button fx:id="fillBlanksGameButton" layoutX="49.0" layoutY="175.0" mnemonicParsing="false" prefHeight="96.0" onAction="#onFillBlanksClicked" prefWidth="173.0" text="Fill in the Blanks" />
+                  <Button layoutX="49.0" layoutY="305.0" disable="true" mnemonicParsing="false" prefHeight="96.0" prefWidth="173.0" text="New Game Coming Soon!" textAlignment="CENTER"  wrapText="true"/>
+                  <Button onAction="#aboutClicked" layoutX="49.0" layoutY="436.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="173.0" text="Gameplay Instructions, Credits and About" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</Pane>

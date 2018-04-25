@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WikiGame.AboutScreen.AboutController">
+   <children>
+      <Text fill="WHITE" layoutX="103.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Play" underline="true">
+         <font>
+            <Font name="Avenir Book" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connection Game" wrappingWidth="307.21875">
+         <font>
+            <Font name="Bad Script Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Select a category from the list on the right." wrappingWidth="364.21875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. The main screen will show two Wikipedia pages that are linked by a single page. (i.e. first page -&gt; linking page -&gt; end page)" wrappingWidth="364.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Select the which page you think links the two pages." wrappingWidth="364.2187386751175">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="24.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill in the Blanks:" wrappingWidth="307.21875">
+         <font>
+            <Font name="Bad Script Regular" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Select a puzzle from the list on the right." wrappingWidth="364.21875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Read the excerpt and try to figure out what word or phrase goes in the blank spaces." wrappingWidth="364.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Select the chosen answer from the dropdown and hit Done!" wrappingWidth="364.2187386751175">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="584.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credits" underline="true">
+         <font>
+            <Font name="Avenir Book" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="583.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" underline="true">
+         <font>
+            <Font name="Avenir Book" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="482.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project by: Lauren Rose" textAlignment="CENTER" wrappingWidth="296.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dog breeds:" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wikipedia logo:" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Wikipedia pages can be found at:" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wikipedia.org/wiki/PAGE_TITILE" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/842px-Wikipedia-logo-v2.svg.png" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="www.akc.org/expert-advice/lifestyle/did-you-know/what-are-breed-groups/" wrappingWidth="319.21874463558197">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBackClicked" style="-fx-background-color: #660066;" text="Go Home" textFill="WHITE" />
+   </children>
+</Pane>

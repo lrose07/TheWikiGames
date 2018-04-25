@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #CCFBFE;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WikiGame.ConnectionGame.ConnectionController">
+   <children>
+      <Button fx:id="optionOne" layoutX="635.0" layoutY="14.0" mnemonicParsing="false" onAction="#optionOneSelected" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="Technology" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Button fx:id="optionTwo" layoutX="635.0" layoutY="101.0" mnemonicParsing="false" onAction="#optionTwoSelected" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="Domestic Animals" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Button fx:id="optionThree" layoutX="635.0" layoutY="188.0" mnemonicParsing="false" onAction="#optionThreeSelected" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="Virginia Colleges" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Button fx:id="optionFour" layoutX="635.0" layoutY="276.0" mnemonicParsing="false" onAction="#optionFourSelected" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="German Cars" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Button fx:id="optionFive" layoutX="635.0" layoutY="364.0" mnemonicParsing="false" onAction="#optionFiveSelected" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="Musical Instruments" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Text fx:id="startPageText" layoutX="89.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a category -&gt;" wrappingWidth="500.0">
+         <font>
+            <Font name="Avenir Book" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="168.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="endPageText" layoutX="89.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="500.0">
+         <font>
+            <Font name="Avenir Book" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBackClicked" style="-fx-background-color: #26547c;" text="Go Home" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font></Button>
+      <Button fx:id="tryAnother" disable="true" layoutX="319.0" layoutY="414.0" mnemonicParsing="false" onAction="#newPuzzle" prefHeight="70.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: black;" text="Next Puzzle" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font></Button>
+      <Text layoutX="17.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="playerScore" layoutX="98.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" wrappingWidth="30.0">
+         <font>
+            <Font name="Avenir Book" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/">
+         <font>
+            <Font name="Avenir Book" size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="totalTried" layoutX="138.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="30.0">
+         <font>
+            <Font name="Avenir Book" size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="correctBoolLabel" layoutX="168.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="150.0">
+         <font>
+            <Font name="Avenir Book" size="38.0" />
+         </font>
+      </Text>
+      <Text fx:id="categoryText" layoutX="545.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="230.21875">
+         <font>
+            <Font name="Chalkduster" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="missingLinkText" layoutX="182.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="400.0">
+         <font>
+            <Font name="Avenir Book" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="newCategory" disable="true" layoutX="425.0" layoutY="414.0" mnemonicParsing="false" onAction="#newCategoryClicked" prefHeight="70.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: black;" text="New Category" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="trySameCat" layoutX="98.0" layoutY="270.0" mnemonicParsing="false" onAction="#trySameCat" prefHeight="65.0" prefWidth="140.0" style="-fx-background-color: #26547c;" text="Try again" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="endGameNewCat" layoutX="319.0" layoutY="270.0" mnemonicParsing="false" onAction="#newCategoryClicked" prefHeight="65.0" prefWidth="140.0" style="-fx-background-color: #26547c;" text="Try a new category" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
